@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="РЖД"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#E31E24"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="60dp" />
+
+    <EditText
+        android:id="@+id/editLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Логин"
+        android:inputType="text"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/editbox_background"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Пароль"
+        android:inputType="textPassword"
+        android:padding="16dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:drawable/editbox_background"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtForgotPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:padding="4dp"
+        android:text="Я не помню пароль"
+        android:textColor="#E31E24"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ВОЙТИ"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#E31E24"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:padding="14dp" />
+
+</LinearLayout>
