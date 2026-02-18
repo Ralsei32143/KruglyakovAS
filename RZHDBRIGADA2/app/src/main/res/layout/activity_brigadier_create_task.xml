@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="РЖД"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#E31E24"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Создать задание"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#2D2D2D"
+            android:layout_marginBottom="32dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Место проведения работ"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp"/>
+
+        <Button
+            android:id="@+id/btnSelectPlace"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Выбрать место"
+            android:textColor="#E31E24"
+            android:backgroundTint="@android:color/white"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Бригада"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp"/>
+
+        <Button
+            android:id="@+id/btnSelectBrigade"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Выбрать бригаду"
+            android:textColor="#E31E24"
+            android:backgroundTint="@android:color/white"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Задание"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp"/>
+
+        <Button
+            android:id="@+id/btnSelectTaskType"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Выбрать тип задания"
+            android:textColor="#E31E24"
+            android:backgroundTint="@android:color/white"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Срок выполнения"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginBottom="4dp"/>
+
+        <Button
+            android:id="@+id/btnSelectDate"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Выбрать дату"
+            android:textColor="#E31E24"
+            android:backgroundTint="@android:color/white"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="16dp"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Описание задания"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#2D2D2D"
+            android:layout_marginBottom="8dp"/>
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Введите описание..."
+            android:gravity="top"
+            android:padding="12dp"
+            android:background="@android:color/white"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvCounter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0/1000"
+            android:gravity="right"
+            android:textColor="#999999"
+            android:textSize="12sp"
+            android:layout_marginBottom="32dp"/>
+
+        <Button
+            android:id="@+id/btnCreate"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Создать"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#E31E24"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>
